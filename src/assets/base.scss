@@ -1,0 +1,66 @@
+.container {
+  max-width: 1200px !important;
+}
+
+.fa-icon {
+  margin-left: .25em;
+  margin-right: .25em;
+}
+.simpleicon svg {
+  height: 1.5em;
+  width: 1.5em;
+}
+.nav-logo {
+  margin-right: 1em;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: #222222
+}
+.section {
+  padding: 2rem 1.5rem
+}
+main .section {
+  padding: 0rem 1.5rem
+}
+main .section:first-child {
+  padding: 2rem 1.5rem
+}
+main .section:last-child {
+  padding: 0rem 1.5rem 2rem 1.5rem
+}
+
+.footer {
+  border-top: 1px solid #ddd;
+  padding: 2rem 1.5rem
+}
+
+.article-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 5vmin;
+}
+
+.list-inline {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list-inline li {
+  display: inline-block;
+}

@@ -1,0 +1,33 @@
+/* // Set your colors
+//$primary: #8c67ef;
+//$primary-invert: findColorInvert($primary);
+$msu-green: #18453B;
+$msu-green-invert: findColorInvert($msu-green);
+
+$twitter: #4099FF;
+$twitter-invert: findColorInvert($twitter);
+
+// Setup $colors to use as bulma classes (e.g. 'is-twitter')
+$colors: (
+    "white": ($white, $black),
+    "black": ($black, $white),
+    "light": ($light, $light-invert),
+    "dark": ($dark, $dark-invert),
+    "primary": ($msu-green, $msu-green-invert),
+    "info": ($info, $info-invert),
+    "success": ($success, $success-invert),
+    "warning": ($warning, $warning-invert),
+    "danger": ($danger, $danger-invert),
+    "twitter": ($twitter, $twitter-invert)
+);
+
+// Links
+// $link: $primary;
+$link: $black;
+// $link-invert: $primary-invert;
+$link-invert: $primary;
+//$link-focus-border: $primary;
+$link-focus-border: $black;
+//
+$variable-columns: false;
+*/
